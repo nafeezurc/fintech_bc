@@ -6,4 +6,5 @@ challenge can be found in ./module_1/Starter_Code
   
 ## module 2
 challenge can be found in ./module_1/Starter_Code/loan_qualifier_app
-  -contains app.py and other files needed to run the app, qualifying_loans.csv which is the output for an example test run I conducted, and terminal_history.txt which displays my terminal history for the assingment
+  -contains app.py and other files needed to run the app, qualifying_loans.csv which is the output for an example test run 
+  I conducted, and terminal_history.txt which displays my terminal history for the assingment
