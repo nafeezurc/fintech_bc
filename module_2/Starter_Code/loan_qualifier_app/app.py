@@ -112,10 +112,11 @@ def save_csv(data):
     """
     output_path = Path("qualifying_loans.csv")
     
+    # same logic from module 1 loan_analyzer assignment
     with open(output_path, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         for row in data:
-            csvwriter.writerow(row.values())
+            csvwriter.writerow(row)
 
 
 def save_qualifying_loans(qualifying_loans):
@@ -126,13 +127,13 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    save_loans = questionary.confirm("Would you like to save your qualifying loans? (yes/no)").ask() # questionary prompt
+    save_loans = questionary.confirm("Would you like to save your qualifying loans?").ask() # questionary prompt
     message = "try again"
     
-    if save_loans == "yes":
+    if save_loans == True: # if yes, then call save_csv to save the data
         save_csv(qualifying_loans)
         message = "loan data saved"
-    elif save_loans == "no":
+    elif save_loans == False: # don't save otherwise
         message = "loan data not saved"
     
     print(message)

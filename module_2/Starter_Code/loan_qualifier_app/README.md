@@ -1,33 +1,37 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+Application that filters through loan data from various banks and firms, asks users for their data, and filters loans that the user qualifies for
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+CSV writer was used to create the output data for the user to view, questionary was used to prompt the user for inputs on their data and whether they want the loans saved into a file. The whole application itself makes use of modular programming as it calls on mulitple functions from child directories to filter the loans.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+The fire and questionary libraries are required to run this program. To install them, in your terminal or command line input the following:
+> pip install fire
+> pip install questionary
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+Run with the following command in your terminal/command line:
+> python app.py
+and from there just follow the on screen prompts
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Nafeezur Chowdhury: nafeezurc@gmail.com
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Public, class assignment
