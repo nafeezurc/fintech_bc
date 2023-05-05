@@ -11,3 +11,7 @@ challenge can be found in ./module_2/Starter_Code/loan_qualifier_app
 ## module 3
 challenge can be found in ./module_3/Starter_Code/
   -contains crypto_arbitrage.ipynb and other files need to run the app, the 'Resources' directory which contains the CSV files for the two exchanges
+
+## module 4
+challenge can be found in ./module_4/Starter_Code/
+  -contains risk_return_analysis.ipynb which has the source code, and the Resources folder containing whale_navs.csv
