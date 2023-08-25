@@ -1,5 +1,16 @@
 # Application
 
+## Evaluation Evidence
+Coin compilation:
+![coin_compiled](https://github.com/nafeezurc/fintech_bc/assets/29153668/0948041d-12b4-4cd6-82d8-22ee6cbc957b)
+
+Crowdsale Compilation:
+![crowdsale_compiled](https://github.com/nafeezurc/fintech_bc/assets/29153668/8b0dfa4c-08d8-4585-8158-df8a92b55834)
+
+Deployer Compilation:
+![deployer_compiled](https://github.com/nafeezurc/fintech_bc/assets/29153668/fea8c3fb-61b2-4051-987a-24277db283fd)
+
+
 ## Challenge: Martian Token Crowdsale
 
 You will create a fungible token that is ERC-20 compliant and that will be minted by using a `Crowdsale` contract from the OpenZeppelin Solidity library.
