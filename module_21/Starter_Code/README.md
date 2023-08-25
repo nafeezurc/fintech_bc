@@ -10,6 +10,10 @@ Crowdsale Compilation:
 Deployer Compilation:
 ![deployer_compiled](https://github.com/nafeezurc/fintech_bc/assets/29153668/fea8c3fb-61b2-4051-987a-24277db283fd)
 
+Minted coins and working process:
+![working](https://github.com/nafeezurc/fintech_bc/assets/29153668/b654f79c-9897-49ee-b448-15c74f9a44ab)
+
+
 
 ## Challenge: Martian Token Crowdsale
 
